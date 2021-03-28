@@ -22,7 +22,7 @@ params:
     # - link: portfolio
     #   text: portfolio
     - link: about
-      text: 有关
+      text: 相关
   title: Call me Sam
   videoBackground:
     overlay: rgba(0, 0, 0, 0.4)
