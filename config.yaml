@@ -1,34 +1,90 @@
-baseurl: https://example.com
+baseURL: https://example.com
+title: Hello Friend NG
 languageCode: en-us
-defaultContentLanguage: en
-isMultilingual: no
-title: Call me Sam
-theme: hugo-theme-sam
-pygmentsStyle: monokai
-pygmentsCodefences: yes
+theme: hugo-theme-hello-friend-ng
+PygmentsCodeFences: yes
+PygmentsStyle: monokai
+paginate: 10
+rssLimit: 10
+copyright: This work is licensed under a Creative Commons Attribution-NonCommercial
+  4.0 International License.
+archetypeDir: archetypes
+contentDir: content
+dataDir: data
+layoutDir: layouts
+publishDir: public
+buildDrafts: no
+buildFuture: no
+buildExpired: no
+canonifyURLs: yes
+enableRobotsTXT: yes
+enableGitInfo: no
+enableEmoji: yes
+enableMissingTranslationPlaceholders: no
+disableRSS: no
+disableSitemap: no
+disable404: no
+disableHugoGeneratorInject: no
+permalinks:
+  posts: /posts/:year/:month/:title/
+author:
+  name: Jane Doe
+blackfriday:
+  hrefTargetBlank: yes
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
 params:
-  dateform: Mon Jan 02, 2021
-  dateformfull: Mon Jan 2 2021 15:04:05 EST
-  description: A new Hugo site.
-  favicon: sam.ico
-  footerText: Call me Sam, a theme for Hugo.
-  homepage: main
-  images: tn.png
-  mainMenu:
-    - link: posts
-      text: 博客
-    - link: gallery
-      text: 杂谈
-    # - link: portfolio
-    #   text: portfolio
-    - link: about
-      text: 相关
-  title: Call me Sam
-  videoBackground:
-    overlay: rgba(0, 0, 0, 0.4)
-    sources:
-      - poster: /background.png
-        source: /sample_video.mp4
-        type: video/mp4
-imaging:
-  quality: 75
+  customCSS: []
+  customJS: []
+  dateform: Jan 2, 2006
+  dateformNum: '2006-01-02'
+  dateformNumTime: 2006-01-02 15:04
+  dateformShort: Jan 2
+  description: Nice theme for homepages and blogs
+  disableReadOtherPosts: no
+  enableSharingButtons: yes
+  favicon:
+    color:
+      mask: '#1b1c1d'
+      msapplication: '#1b1c1d'
+      theme: '#1b1c1d'
+  homeSubtitle: Hello Friend NG
+  images: ''
+  justifyContent: no
+  keywords: ''
+  logo:
+    logoHomeLink: /
+    logoMark: '>'
+    logoText: $ cd /home/
+  social:
+    - name: twitter
+      url: https://twitter.com/
+    - name: email
+      url: mailto:nobody@example.com
+    - name: github
+      url: https://github.com/
+    - name: linkedin
+      url: https://www.linkedin.com/
+    - name: stackoverflow
+      url: https://www.stackoverflow.com/
+languages:
+  en:
+    copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    subtitle: Hello Friend NG Theme
+    weight: 1
+  fr:
+    copyright: <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank"
+      rel="noopener">CC BY-NC 4.0</a>
+    subtitle: Hello Friend NG Theme
+    weight: 2
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: about/
+    - identifier: posts
+      name: Posts
+      url: posts/
