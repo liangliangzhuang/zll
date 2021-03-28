@@ -5,17 +5,17 @@ languageCode: en-US
 contentdir: content
 layoutdir: layouts
 publishdir: public
-author: 庄闪闪
-title: 庄闪闪的博客
+author: x
+title: x
 theme: hugo-goa
 disqusShortname: https-shenoybr-github-io-hugo-goa-demo
 googleAnalytics: XYZ
 enableRobotsTXT: yes
 params:
-  author: 庄闪闪
+  author: x
   authorimage: 
   dateformat: Jan 2, 2021
-  description: "在读统计研究生、R爱好者"
+  description: "x"
   extra:
     copyright: © 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
     displayrssicon: no
@@ -65,14 +65,14 @@ params:
 menu:
   main:
     - identifier: blog
-      name: 博客
+      name: a
       url: /blog/
       weight: 100
     - identifier: about
-      name: 关于
+      name: b
       url: /about/
       weight: 200
     - identifier: coderag
-      name: 杂谈
+      name: c
       url: /coderag/
       weight: 300
