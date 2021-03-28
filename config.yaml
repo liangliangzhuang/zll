@@ -1,78 +1,34 @@
-baseurl: https://shenoybr.github.io/hugo-goa-demo/
-builddrafts: no
-canonifyurls: no
-languageCode: en-US
-contentdir: content
-layoutdir: layouts
-publishdir: public
-author: x
-title: x
-theme: hugo-goa
-disqusShortname: https-shenoybr-github-io-hugo-goa-demo
-googleAnalytics: XYZ
-enableRobotsTXT: yes
+baseurl: https://example.com
+languageCode: en-us
+defaultContentLanguage: en
+isMultilingual: no
+title: Call me Sam
+theme: hugo-theme-sam
+pygmentsStyle: monokai
+pygmentsCodefences: yes
 params:
-  author: x
-  authorimage: 
-  dateformat: Jan 2, 2021
-  description: "x"
-  extra:
-    copyright: © 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
-    displayrssicon: no
-    highlightjs: yes
-    poweredby: yes
-    socialmarkup: yes
-    toc: yes
-  intro: 
-  meta:
-    description: Simple minimalist theme
-    keywords: minimalist,blog,goa,hugo,developer
-  social:
-    # bitbucket: <username>
-    # email: you@example.com
-    # facebook: <username>
-    # fivehundredpx: <username>
-    # flickr: <username>
-    # foursquare: <username>
-    # github: <username>
-    # gitlab: <username>
-    # goodreads: <username>
-    # google: <username>
-    # googlescholar: <account_id>
-    # hackernews: <username>
-    # instagram: <username>
-    # keybase: <username>
-    # kickstarter: <username>
-    # lastfm: <username>
-    # linkedin: <username>
-    # patreon: <username>
-    # pgp: <key_fingerprint>
-    # pintrest: <username>
-    # reddit: <username>
-    # skype: <username>
-    # snapchat: <username>
-    # soundcloud: <username>
-    # stackoverflow: <username>
-    # steam: <username>
-    # strava: <username>
-    # telegram: <username>
-    # tumblr: <username>
-    # twitch: <username>
-    # twitter: <username>
-    # whatsapp: <username>
-    # xing: <username>
-    # youtube: <channelid>
-menu:
-  main:
-    - identifier: blog
-      name: a
-      url: /blog/
-      weight: 100
-    - identifier: about
-      name: b
-      url: /about/
-      weight: 200
-    - identifier: coderag
-      name: c
-      url: /coderag/
-      weight: 300
+  dateform: Mon Jan 02, 2021
+  dateformfull: Mon Jan 2 2021 15:04:05 EST
+  description: A new Hugo site.
+  favicon: sam.ico
+  footerText: Call me Sam, a theme for Hugo.
+  homepage: main
+  images: tn.png
+  mainMenu:
+    - link: posts
+      text: 博客
+    - link: gallery
+      text: 杂谈
+    # - link: portfolio
+    #   text: portfolio
+    - link: about
+      text: 有关
+  title: Call me Sam
+  videoBackground:
+    overlay: rgba(0, 0, 0, 0.4)
+    sources:
+      - poster: /background.png
+        source: /sample_video.mp4
+        type: video/mp4
+imaging:
+  quality: 75
