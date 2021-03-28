@@ -1,0 +1,63 @@
+---
+title: zss
+author: zss
+date: '2021-03-28'
+slug: ssss
+categories:
+  - R
+tags:
+  - R Markdown
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+
+# 贝叶斯
+
+b站视频：<https://www.bilibili.com/video/BV1ya411A7ih?p=2&spm_id_from=pageDriver>
+
+课后作业：<https://github.com/rmcelreath/statrethinking_winter2019>
+
+书上代码：<https://github.com/rmcelreath/rethinking/tree/Experimental>
+
+书籍：
+
+![image-20210324201352482](https://gitee.com/zhuang_liang_liang0825/other/raw/master/image-20210324201352482.png)
+
+-   <https://mc-stan.org/docs/2_22/stan-users-guide/linear-regression.html>
+
+-   [Regression Models](https://mc-stan.org/docs/2_26/stan-users-guide/index.html)
+
+    ### 课程安排
+
+    -   线性回归模型（理论+例子）
+
+        -   一般线性回归模型
+
+        -   logistic回归模型
+
+    两种方法理论说明白（参数估计的不同方法）+例子模拟
+
+    ### 今日任务
+
+    -   9:30 - 9:45 复盘
+
+    -   9:45 - 11:15 自己论文（写代码）
+
+    ```{=html}
+    <!-- -->
+    ```
+    -   12:00 - 13:00 公众号相关资料学习（bookdown）
+
+    -   13:30 - 15:00 贝叶斯学习
+
+    -   15:00 - 17:00 看文献（INLA）
+
+    -   17:00 - 18:30 晚饭 + 看书《人性的弱点》
+
+    ```{=html}
+    <!-- -->
+    ```
+    -   18:30 - 22:30 深度学习 + 相关论文 + 自己论文
+
+    ### 3月28日周日

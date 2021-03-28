@@ -1,38 +1,78 @@
-baseurl: /
-languageCode: en-us
-title: A Hugo website
-theme: hugo-lithium
-googleAnalytics: ''
-disqusShortname: ''
-ignoreFiles:
-  - \.Rmd$
-  - \.Rmarkdown$
-  - _cache$
-  - \.knit\.md$
-  - \.utf8\.md$
-permalinks:
-  post: /:year/:month/:day/:slug/
+baseurl: https://shenoybr.github.io/hugo-goa-demo/
+builddrafts: no
+canonifyurls: no
+languageCode: en-US
+contentdir: content
+layoutdir: layouts
+publishdir: public
+author: 庄闪闪
+title: 庄闪闪的博客
+theme: hugo-goa
+disqusShortname: https-shenoybr-github-io-hugo-goa-demo
+googleAnalytics: XYZ
+enableRobotsTXT: yes
+params:
+  author: 庄闪闪
+  authorimage: 
+  dateformat: Jan 2, 2021
+  description: "在读统计研究生、R爱好者"
+  extra:
+    copyright: © 2016. Erlich Bachman. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/).
+    displayrssicon: no
+    highlightjs: yes
+    poweredby: yes
+    socialmarkup: yes
+    toc: yes
+  intro: 
+  meta:
+    description: Simple minimalist theme
+    keywords: minimalist,blog,goa,hugo,developer
+  social:
+    # bitbucket: <username>
+    # email: you@example.com
+    # facebook: <username>
+    # fivehundredpx: <username>
+    # flickr: <username>
+    # foursquare: <username>
+    # github: <username>
+    # gitlab: <username>
+    # goodreads: <username>
+    # google: <username>
+    # googlescholar: <account_id>
+    # hackernews: <username>
+    # instagram: <username>
+    # keybase: <username>
+    # kickstarter: <username>
+    # lastfm: <username>
+    # linkedin: <username>
+    # patreon: <username>
+    # pgp: <key_fingerprint>
+    # pintrest: <username>
+    # reddit: <username>
+    # skype: <username>
+    # snapchat: <username>
+    # soundcloud: <username>
+    # stackoverflow: <username>
+    # steam: <username>
+    # strava: <username>
+    # telegram: <username>
+    # tumblr: <username>
+    # twitch: <username>
+    # twitter: <username>
+    # whatsapp: <username>
+    # xing: <username>
+    # youtube: <channelid>
 menu:
   main:
-    - name: About
+    - identifier: blog
+      name: 博客
+      url: /blog/
+      weight: 100
+    - identifier: about
+      name: 关于
       url: /about/
-    - name: GitHub
-      url: https://github.com/rstudio/blogdown
-    - name: Twitter
-      url: https://twitter.com/rstudio
-params:
-  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
-  MathJaxVersion: 2.7.5
-  description: A website built through Hugo and blogdown.
-  favicon: favicon.ico
-  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
-  highlightjsLang:
-    - r
-    - yaml
-  highlightjsTheme: github
-  highlightjsVersion: 9.12.0
-  logo:
-    alt: Logo
-    height: 50
-    url: logo.png
-    width: 50
+      weight: 200
+    - identifier: coderag
+      name: 杂谈
+      url: /coderag/
+      weight: 300
