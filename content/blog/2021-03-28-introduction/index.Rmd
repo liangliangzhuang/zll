@@ -1,0 +1,17 @@
+---
+title: 怎么回事
+author: zss
+date: '2021-03-28'
+slug: introduction
+categories:
+  - about
+tags:
+  - about
+comments: no
+showcomments: yes
+showpagemeta: yes
+---
+
+# 简介
+
+这玩意不是一般的麻烦，至今还不是很清楚内部机制是什么样的。
